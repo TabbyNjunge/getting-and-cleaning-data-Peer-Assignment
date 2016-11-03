@@ -1,0 +1,15 @@
+The data is downloaded from 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The run_analysis script performs the following
+
+Reads X_train.txt, y_train.txt and subject_train.txt from the working directory/UCI HAR folder and stores them in  objects: TrainData, TrainLabel and TrainSubject variables respectively.
+Reads X_test.txt, y_test.txt and subject_test.txt from the working directory/UCI HAR  folder and stores them in  objects :TestData, TestLabel and Testsubject variables respectively.
+Combines objects TestData to TrainData to generate a Traintestdata  data frame,  combines TestLabel to TrainLabel to generate Traintestlabel data frame,combines TestSubject to trainSubject to generate Traintestsubject data frame.
+Reads the features.txt file from the working directory/UCI HAR  folder and stores the data in a variable called features.
+Extracts the measurements on the mean and standard deviation. this results in a data frame meanstddev with o Rows and 66 columns.
+Read the activity_labels.txt file from the working directory/UCI HAR folder and stores the data in a variable called Activities.
+uses descriptive activity names to name the activities in the data set
+Combines the Traintestsubject,Traintestlabels,Traintestdata into one data frame"combined data" that has the subjects(1-30) and 6 activities given descriptive names such as standing,walking etc.
+Creates a second independent tidy data set(tidy with the average of each measurement for each activity and each subject.the tidy dataset dimensions are 180 rows and 68columns
+Writes out the  the tidy dataset to tidy.txt in the working directory.
