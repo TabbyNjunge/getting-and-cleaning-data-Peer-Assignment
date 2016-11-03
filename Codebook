@@ -13,3 +13,9 @@ uses descriptive activity names to name the activities in the data set
 Combines the Traintestsubject,Traintestlabels,Traintestdata into one data frame"combined data" that has the subjects(1-30) and 6 activities given descriptive names such as standing,walking etc.
 Creates a second independent tidy data set(tidy with the average of each measurement for each activity and each subject.the tidy dataset dimensions are 180 rows and 68columns
 Writes out the  the tidy dataset to tidy.txt in the working directory.
+
+License:
+========
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
