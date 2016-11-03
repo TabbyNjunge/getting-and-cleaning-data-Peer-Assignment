@@ -54,9 +54,7 @@ for(i in 1:subjectLength) {
 head(tidy)
 dim(tidy)
 write.table(tidy, "tidy.txt") 
-codebook(tidy)
-write(codebook(tidy),
-      file ="codebook.txt")
+
 
 
 
