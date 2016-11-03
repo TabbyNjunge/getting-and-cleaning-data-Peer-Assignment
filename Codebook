@@ -11,7 +11,7 @@ Extracts the measurements on the mean and standard deviation. this results in a 
 Read the activity_labels.txt file from the working directory/UCI HAR folder and stores the data in a variable called Activities.
 uses descriptive activity names to name the activities in the data set
 Combines the Traintestsubject,Traintestlabels,Traintestdata into one data frame"combined data" that has the subjects(1-30) and 6 activities given descriptive names such as standing,walking etc.
-Creates a second independent tidy data set(tidy with the average of each measurement for each activity and each subject.the tidy dataset dimensions are 180 rows representing the subjects and 68columns
+Creates a second independent tidy data set(tidy with the average of each measurement for each activity and each subject.the tidy dataset dimensions are 180 rows representing the per subject(30) per activity(6) and 68columns.
 Writes out the  the tidy dataset to tidy.txt in the working directory.
 
 License:
